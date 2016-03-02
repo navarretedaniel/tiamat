@@ -6,7 +6,21 @@ Pymongo tutorial with NOAA metadata records
 
 By Internet Archive Book Images [No restrictions], via Wikimedia Commons
 
-In this lab, we will use Pymongo to store NOAA metadata records to a database. First, ensure you have `pymongo` [installed](https://api.mongodb.org/python/current/installation.html). Type this into your terminal:
+In this lab, we will use Pymongo to store [NOAA metadata](https://data.noaa.gov/data.json) records to a database.
+
+First, install [MongoDB](https://docs.mongodb.org/manual/administration/install-community/).
+
+[__OSX__](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)    
+```bash
+$ brew install mongodb
+```
+
+[__Linux__](https://docs.mongodb.org/manual/administration/install-on-linux/)    
+
+[__Windows__](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/)    
+
+
+Next, make sure you have `pymongo` [installed](https://api.mongodb.org/python/current/installation.html). Type this into your terminal:
 
 ```bash
 $ python -m pip install pymongo
