@@ -36,5 +36,5 @@ $ pip install jupyter
 ## Launch the Jupyter Notebook
 
 ```bash
-$ jupyter notebook IntroDBWorkshop.ipynb
+$ jupyter notebook MongoDBTutorial.ipynb
 ```
