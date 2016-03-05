@@ -27,6 +27,13 @@ Next, make sure you have `pymongo` [installed](https://api.mongodb.org/python/cu
 $ python -m pip install pymongo
 ```
 
+## Clone this repo  
+
+```bash
+$ git clone https://github.com/rebeccabilbro/tiamat.git
+$ cd tiamat
+```
+
 ## Install Jupyter if you don't already have it
 
 ```bash
