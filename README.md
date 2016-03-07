@@ -163,12 +163,12 @@ The following table provides an overview of common SQL aggregation terms, functi
 
 | SQL Terms, Functions, and Concepts  | MongoDB Aggregation Operators  |
 | ----------------------------------  |:-------------------------------|
-| WHERE                               | \$match                        |
-| GROUP BY                            | \$group                        |
-| HAVING                              | \$match                        |
-| SELECT	                            | \$project                      |
-| ORDER BY	                          | \$sort                         |
-| LIMIT                               | \$limit                        |
-| SUM()   	                          | \$sum                          |
-| COUNT()	                            | \$sum                          |
-| join	                              | \$lookup                       |
+| WHERE                               | $match                         |
+| GROUP BY                            | $group                         |
+| HAVING                              | $match                         |
+| SELECT	                            | $project                       |
+| ORDER BY	                          | $sort                          |
+| LIMIT                               | $limit                         |
+| SUM()   	                          | $sum                           |
+| COUNT()	                            | $sum                           |
+| join	                              | $lookup                        |
