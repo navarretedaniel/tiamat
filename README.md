@@ -7,6 +7,8 @@ In this lab, we will use Pymongo to store [NOAA metadata](https://data.noaa.gov/
 
 _By Internet Archive Book Images [No restrictions], via Wikimedia Commons_
 
+**Please verify you have all installations listed in the 
+[Install](https://github.com/nd1/tiamat/blob/master/Install.md) file before proceeding.**
 
 ## Install MongoDB
 First, install [MongoDB](https://docs.mongodb.org/manual/administration/install-community/).
@@ -30,7 +32,7 @@ $ python -m pip install pymongo
 ## Clone this repo  
 
 ```bash
-$ git clone https://github.com/rebeccabilbro/tiamat.git
+$ git clone https://github.com/nd1/tiamat.git
 $ cd tiamat
 ```
 
