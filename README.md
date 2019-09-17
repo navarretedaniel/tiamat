@@ -32,7 +32,7 @@ $ python -m pip install pymongo
 ## Clone this repo  
 
 ```bash
-$ git clone https://github.com/nd1/tiamat.git
+$ git clone https://github.com/navarretedaniel/tiamat.git
 $ cd tiamat
 ```
 
