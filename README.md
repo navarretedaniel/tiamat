@@ -1,14 +1,14 @@
 # tiamat
 Pymongo tutorial with NOAA metadata records
 
-In this lab, we will use Pymongo to store [NOAA metadata](https://data.noaa.gov/data.json) records to a database.
+In this lab, we will use Pymongo to store [NOAA metadata](https://data.noaa.gov/) records to a database.
 
 ![Tiamat](https://github.com/rebeccabilbro/tiamat/blob/master/images/tiamat.jpg)  
 
 _By Internet Archive Book Images [No restrictions], via Wikimedia Commons_
 
 **Please verify you have all installations listed in the 
-[Install](https://github.com/nd1/tiamat/blob/master/Install.md) file before proceeding.**
+[Install](https://github.com/navarretedaniel/tiamat/blob/master/Install.md) file before proceeding.**
 
 ## Install MongoDB
 First, install [MongoDB](https://docs.mongodb.org/manual/administration/install-community/).
@@ -23,10 +23,15 @@ $ brew install mongodb
 [__Windows__](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/)    
 
 ## Install Pymongo
-Next, make sure you have `pymongo` [installed](https://api.mongodb.org/python/current/installation.html). Type this into your terminal:
+Next, make sure you have `pymongo` [installed](https://api.mongodb.org/python/current/installation.html). 
 
+Type this into your terminal:
 ```bash
 $ python -m pip install pymongo
+```
+If you're using Anaconda Prompt:
+```bash
+$ conda install -c anaconda pymongo
 ```
 
 ## Clone this repo  
@@ -38,8 +43,14 @@ $ cd tiamat
 
 ## Install Jupyter if you don't already have it
 
+In terminal:
 ```bash
 $ pip install jupyter
+```
+
+In Anaconda Prompt:
+```bash
+$ conda install jupyter
 ```
 
 ## Launch the Jupyter Notebook
